@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <span class="header-title">trường đại học công nghệ gtvt</span>
+            <div class="header-top"><span class="header-top-title">Khách</span></div>
+        </div>
+        <div class="header-menu">
+            <ul class="header-menu-list">
+                <li class="header-menu__item"><a href="" class="header-menu__item-link"> Trang chủ</a></li>
+                <li class="header-menu__item"><a href="" class="header-menu__item-link">Đăng nhập</a></li>
+                <li class="header-menu__item"><a href="" class="header-menu__item-link">Hỏi đáp</a></li>
+                <li class="header-menu__item"><a href="" class="header-menu__item-link">Trợ giúp</a></li>
+                <li class="header-menu__item"><select name="" id="">
+                        <option value="">VN</option>
+                    </select></li>
+            </ul>
+        </div>
+        <div class="login">
+            <table class="tb-main">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="tb-main-div1">
+                                <div class="tb-main-div2">
+                                    <table class="tb-1">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img class="tb-1-img" src="./img/login1-t.gif" alt="">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="tb2-div">
+                                        <table class="tb-2">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table class="tb-child1">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="labelheader">Tài khoản&nbsp;:
+                                                                    </td>
+                                                                    <td>
+                                                                        <input name="txtUserName" type="text"
+                                                                            id="txtUserName">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="labelheader">Mật khẩu :</td>
+                                                                    <td>
+                                                                        <input name="txtPassword" type="password"
+                                                                            id="txtPassword" onblur="md5(this);">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="labelheader">
+                                                                        <input type="submit" name="btnSubmit"
+                                                                            value="Đăng nhập " id="btnSubmit">&nbsp;
+                                                                    </td>
+                                                                    <td>&nbsp;<input onclick="GoHome();" type="button"
+                                                                            value="Về trang chủ"></td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td class="labelheader" colspan="2">
+                                                                        <a class="labelheader-link" href="">[ Quên mật
+                                                                            khẩu
+                                                                            ]</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <table class="tb-box">
+                                        <tbody>
+                                            <tr>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            <div class="footer-title">
+                <span class="footer-title__text">Đường dây nóng</span>
+                <p class="footer-title__text">02435528979</p>
+            </div>
+
+            <div class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-menu__item"><a href="" class="footer-menu__item-link"> Trang chủ</a></li>
+                    <li class="footer-menu__item"><a href="" class="footer-menu__item-link">Đăng nhập</a></li>
+                    <li class="footer-menu__item"><a href="" class="footer-menu__item-link">Hỏi đáp</a></li>
+                    <li class="footer-menu__item"><a href="" class="footer-menu__item-link">Trợ giúp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="footer2-list1">
+                <li class="footer-item"><img class="footer-item__img" src="./img/print.png" alt=""><a
+                        class="footer-item__link" href="">in trang
+                        này</a> </li>
+                <li class="footer-item"><img class="footer-item__img" src="./img/sendemail.png" alt=""><a
+                        class="footer-item__link" href=""> gửi
+                        email trang này</a>
+                </li>
+                <li class="footer-item"><img class="footer-item__img" src="./img/sendemail.png" alt=""><a
+                        class="footer-item__link" href="">Thêm
+                        vào ưa thích</a>
+                </li>
+            </div>
+            <div class="footer2-list2">
+                <a href="">số người đang Online :</a> 19
+                <p>Lượt truy cập: 86410</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
